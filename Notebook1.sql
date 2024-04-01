@@ -14,4 +14,12 @@ from
 
 -- COMMAND ----------
 
+select
+  *
+from
+  database2.babynames_csv;
+
+-- COMMAND ----------
+
 CREATE DATABASE database1;
+CREATE DATABASE database2;
