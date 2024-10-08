@@ -2,8 +2,8 @@
 import os
 
 # Assuming you cloned the repository to a directory called 'repository'
-repo_dir = '/Workspace/Repos/girish.sharma@databricks.com/pubnew'
-sql_file_path = os.path.join(repo_dir, '/Workspace/Repos/girish.sharma@databricks.com/pubnew/mytestsql.sql')
+repo_dir = 'https://github.com/kingshukdas-db/kingshuk-repository'
+sql_file_path = os.path.join(repo_dir, 'mytestsql.sql')
 
 # Read the SQL file
 with open(sql_file_path, 'r') as file:
